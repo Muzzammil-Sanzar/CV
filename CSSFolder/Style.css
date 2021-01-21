@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #40514E;
+}
+
+
+h1{
+	color: #66BFBF;
+	margin: 50PX auto 0 auto;
+	font-size: 5.625rem;
+	font-family: 'Sacramento', cursive;
+}
+
+h2{
+	color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	margin: 0 auto;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+h3{
+	color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+hr{
+	border: 6px dotted #D2D9D9;
+	width: 5%;
+	border-bottom: none;
+	margin: 100px auto;
+}
+
+p{
+	line-height: 2;
+}
+
+a{
+	color: #11999e;
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #EAF6F6;	
+}
+
+/************************* Class Selectors ********************************/
+
+.bottom-cloud{
+	position: absolute;
+	left: 250px;
+	bottom: 300px;
+}
+
+.btn {
+	background: #11cdd4;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+	background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border-radius: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright{
+	color: #EAF6F6;
+	font-size: 13px;
+	padding: 10px 10px;
+}
+
+.computer-img{
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+	border-radius: 100%;
+}
+
+.chillies-img{
+	width: 25%;
+	float: right;
+	margin-right: 30px;
+	border-radius: 100%;
+}
+
+.cloud{
+	position: absolute;
+	right: 250px;
+	top: 40px;
+}
+
+.top_container{
+	background-color: #E4F9F5;
+	margin: 0;
+	position: relative;
+	padding-top: 100px;
+}
+
+.midd-container{
+	margin: 100px 0;
+}
+
+.dolphin{
+	border-radius: 100%;
+	height: 180px;
+	width: 180px;
+}
+
+.dolphin-description {
+	width: 30%;
+	margin: auto;
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+.contact-message{
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+.bottom-container{
+	background-color: #66BFBF;
+	padding: 50PX 0 20px;
+}
